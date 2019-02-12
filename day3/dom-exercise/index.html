@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>item lister</title>
+    <!--Link to bootstrap-style in CSS -->
+    
+    <style>
+        .well {
+            background-color: rgb(22, 105, 173);
+            width: 100%;
+        }
+        .items-list-group2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+        .images {
+            width: 30%;
+        }
+       
+    </style>
+</head>
+<body>
+   
+    <header id="main-header" class="bg-success text-white p-4 mb-3">
+        <div class="container">
+           
+            <h1 id="header-title">Item Lister<span style="display: none;"> item 123</span></h1>
+        </div>
+    </header>
+    <div class="container">
+        <div id="main" class="card card-body">
+            <h2 class="title" id="header-item">Add Items <span>MagicNumber</span></h2>
+            <form class="form-comtrol mb-3">
+                <input type="text" id="" class="form-control mr-2">
+                <input type="submit" class="btn btn-dark" id="submitBtnDark" value="Submit">
+            </form>
+            <h2 class="title">Items</h2>
+            <ul id="items" class="list-group items-list-group1">
+                <li class="list-group-item">Item 1</li>
+                <li class="list-group-item">Item 2</li>
+                <li class="list-group-item">Item 3</li>
+                <li class="list-group-item">Item 4</li>
+            </ul>
+           
+            <div id="main" class="card card-body">
+                <h2 class="title">Images</h2>
+                <ul id="items" class="list-group items-list-group2">
+                    <li class="list-group-item"><img src="#" alt="img" id="image1" class="images"></li>
+                    <li class="list-group-item"><img src="#" alt="img" id="image2" class="images"></li>
+                    <li class="list-group-item"><img src="#" alt="img" id="image3" class="images"></li>
+                    <li class="list-group-item"><img src="#" alt="img" id="image4" class="images"></li>
+                </ul>
+            </div>
+        </div>
+        <div id="main" class="card card-body">
+                <h2 class="title" id="header-item">Add Items <span>MagicNumber</span></h2>
+                <div class="well">
+                    <p id="demo">Basic Well</p>
+                </div>
+        </div>
+    </div><!-- END Container -->
+    
+        
+    <!-- Link to dom.js in js -->
+       
+</body>
+</html>
