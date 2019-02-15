@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS and Parallax Scrolling effects</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title" id="top-title">
+            <h3>Simple</h3>
+            <h1>Parallax</h1>
+            <h3>Effects</h3>
+            <h3>And</h3>
+            <h1>JavaScript</h1>
+        </div>
+    
+        <div class="welcome parallax">
+            <div class="bg-top">
+                <h2 class="text-blur-out">TRAVEL GUIDE</h2>
+            </div>
+            <figure id="first-arrow-figure">
+                <a href="#map"><img src="img/button-down-arrow.svg" class="text-pop-up-top" alt="button-down-arrow"></a>
+            </figure>
+        </div>
+        
+        <div class="map parallax" id="map">
+            <div class="bg-top">
+                <h2>Discover New Places</h2>
+            </div>
+        </div>
+        
+        <div class="between">
+            <div class="title middle">
+                <h1>Isn't</h1>
+                 <figure id="second-arrow-figure">
+                     <a href="#paris"><img src="img/button-down-arrow.svg" class="text-pop-up-child" alt="button-down-arrow"></a>
+                 </figure>
+            </div>
+        </div>
+    
+        <div class="pa parallax" id="paris">
+            <div class="bg">
+                <h2>Paris</h2>
+                <audio id="audioParis">
+                        <source src="audio/paris.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    
+        <div class="between">
+            <div class="title middle">
+                <h1>Isn't</h1>
+                 <figure id="third-arrow-figure">
+                     <a href="#firenze"><img src="img/button-down-arrow.svg" class="text-pop-up-child" alt="button-down-arrow"></a>
+                </figure>
+            </div>
+        </div>
+    
+        <div class="fir parallax" id="firenze">
+            <div class="bg">
+                <h2>Firenze</h2>
+                <audio id="audioFirenze">
+                        <source src="audio/firenze.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    
+        <div class="between">
+            <div class="title middle">
+                <h1>This</h1>
+                <h1>is</h1>
+                <figure id="fourth-arrow-figure">
+                    <a href="#istanbul"><img src="img/button-down-arrow.svg" class="text-pop-up-child" alt="button-down-arrow"></a>
+                </figure>
+            </div>
+        </div>
+    
+        <div class="ist parallax" id="istanbul">
+            <div class="bg">
+                <h2>Istanbul</h2>
+                 <audio id="audioIstanbul">
+                        <source src="audio/istanbul.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    
+        <div class="between">
+            <div class="title middle">
+                <h1>Awesome</h1>
+                 <figure>
+                     <a href="#videoIstanbul"><img src="img/button-down-arrow.svg" class="text-pop-up-child" alt="button-down-arrow"></a>
+                </figure>
+            </div>
+        </div>
+    
+        <div class="video parallax">
+            <div class="bg-bottom">
+                <h2>EXPLORE THE WORLD</h2>
+                <section class="videoSection">
+                    <video id="videoIstanbul">     
+                        <source src="video/study-abroad-Istanbul.mp4" type= "video/mp4">
+                    </video>
+                </section>
+            </div>
+        </div>
+    
+        <div class="between">
+            <div class="title middle" id="cta-book-travel">
+                <button class="btn btn-primary btn-lg btn-block heartbeat">Book Your Next Trip Today!</button>
+            </div>
+        </div>
+    <button onclick="topFunction()" id="back-to-top" title="Go to top">Top</button>
+   
+</div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
