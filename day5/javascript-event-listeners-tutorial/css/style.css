@@ -1,0 +1,26 @@
+body {
+    font-family: "helvetica neue";
+    color: #666;
+    padding: 0 20%;
+}
+img {
+  width: 200px;
+}
+.hide {
+  display: none;
+}
+
+input[type="button"] {
+    width: 170px;
+    height: 40px;
+}
+
+/*.changeBtnColor {
+    background-color: coral;
+}
+*/
+
+.colorfulBtn {
+    background-color: darkcyan;
+   
+}
