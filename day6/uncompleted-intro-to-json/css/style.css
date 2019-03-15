@@ -1,0 +1,10 @@
+#container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: teal;
+}
+
+#output {
+    font-size: 24px;
+    background-color: bisque;
+}
