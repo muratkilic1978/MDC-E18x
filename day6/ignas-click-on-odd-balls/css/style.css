@@ -1,0 +1,39 @@
+* {
+    background: #EAE3CB; 
+}
+
+#points {
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#multiplier {
+    color: darkblue;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+@keyframes shake {
+   0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+.apply-shake {
+    animation: .8s shake infinite alternate;
+
+}
+
+

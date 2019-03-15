@@ -1,0 +1,51 @@
+/* this is an alternative way to display the box elements
+ul {
+    margin: 520px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 35%;
+    width: 25%;
+    align-content: space-around;
+    margin-top:100px;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+}
+*/
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  width:  320px;
+  border: 1px solid black;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  flex-grow: 1;
+}
+
+ul li img {
+  flex-grow: 1;
+}
+
+* {
+    background: #EAE3CB;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#counter {
+  font-size: 1.5em;
+  font-weight: 600;
+}
