@@ -1,0 +1,78 @@
+
+
+/* Part 1 styling - FAQ jQuery Slider - setting padding & margin to Zero */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    color: #666;
+    font-size: 16px;
+    background: #f9f9f9;
+    line-height: 1.6em;
+}
+
+/* Part 2 styling - FAQ jQuery Slider - Removing list-item default styling*/
+
+ul, li {
+    list-style: none;
+}
+
+/* Part 3 styling - FAQ jQuery Slider - making the FAQ Slider responsive*/
+
+#container {
+    width: 60%;
+    margin: 30px auto;
+    overflow: auto;
+}
+
+/* Part 3 styling - FAQ jQuery Slider - styling h1-tag*/
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Part 3 styling - FAQ jQuery Slider - styling title class*/
+.title {
+    height: 40px;
+    background: #6bb170;
+    color: #fff;
+    text-align: center;
+    padding-top: 13px;
+}
+
+/* Part 3 styling - FAQ jQuery Slider - styling FAQ list items and questions*/
+
+.faq li {
+    padding: 20px;
+}
+
+.faq li.q {
+    background: #eee;
+    font-weight: bold;
+    font-size: 120%;
+    border-bottom: 1px #ddd solid;
+    cursor: pointer;
+    
+}
+
+.faq li.a {
+    background: #ddd;
+    display: none;
+}
+
+.rotate {
+    -moz-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);   
+}
+
+
+@media (max-width:800px){
+    #container{
+        width: 90%;
+    }
+}
